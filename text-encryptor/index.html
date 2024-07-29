@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Criptografia</title>
+  <!-- CryptoJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</head>
+<body>
+  <!-- Topo do site -->
+  <header>
+    <div class="cabecalho"></div>
+  </header>
+  
+  <!-- Corpo do site -->
+  <main>
+    <!-- Título -->
+    <h2>Criptografia e Descriptografia</h2>
+    <label for="mensagem">Mensagem:</label>
+    <input type="text" id="mensagem" placeholder="Digite sua mensagem">
+    
+    <!-- Botões de controle -->
+    <button onclick="criptografar()">Criptografar</button>
+    <button onclick="descriptografar()">Descriptografar</button>
+
+    <!-- Subtítulo -->
+    <h3>Mensagem Criptografada:</h3>
+    <p id="mensagem_criptografada"></p>
+
+    <!-- Subtítulo -->
+    <h3>Mensagem Descriptografada:</h3>
+    <p id="mensagem_descriptografada"></p>
+  </main>
+  
+  <!-- Rodapé -->
+  <footer>
+    <div class="rodape">© 2024 Meu Site de Criptografia. Todos os direitos reservados.</div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="js/criptografia.js"></script>
+</body>
+</html>
