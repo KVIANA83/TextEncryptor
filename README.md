@@ -1,0 +1,2 @@
+# TextEncryptor
+Criptografia e Descriptografia
