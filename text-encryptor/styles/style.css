@@ -5,3 +5,87 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
+/* Estilização do corpo */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilização do topo (header) */
+header .cabecalho {
+  background: linear-gradient(90deg, #4caf50, #2e7d32);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+ /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);*/
+}
+
+
+/* Estilização do corpo (main) */
+main {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Estilização do Texto */
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin: 15px;
+}
+
+/* Estilização dos botões */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  width: 150px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4caf50;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #4caf50;
+  border: 1px solid #4caf50;
+  font-weight: 600;
+  box-shadow: 2px 2px 5px 2px #2e7d3250;
+}
+
+/* Estilização dos campos de texto */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: calc(100% - 22px);
+  max-width: 400px;
+  margin: 10px 0;
+  border: 1px solid #2e7d32;
+  border-radius: 5px;
+}
+
+
+/* Estilização do rodapé (footer) */
+footer .rodape {
+  background: linear-gradient(90deg, #2e7d32, #4caf50);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+ /* clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); */
+}
